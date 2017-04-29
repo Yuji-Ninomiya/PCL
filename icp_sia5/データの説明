@@ -1,0 +1,6 @@
+データの説明
+
+gazebo.pcd -> multi kinect merger で得たモデル点群の元データ
+motoman.pcd -> gazebo.pcd から motoman を切り抜いたやつ
+
+model_points -> multi kinect merger から切り取ったやつの重心をCloudCompareで原点に持っていったやつ

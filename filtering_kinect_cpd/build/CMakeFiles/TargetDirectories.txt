@@ -1,0 +1,2 @@
+/home/yuji/workspace/PCL/filtering_kinect_cpd/build/CMakeFiles/filtering_kinect_pcd.dir
+/home/yuji/workspace/PCL/filtering_kinect_cpd/build/CMakeFiles/rotate_axis_pcd.dir

@@ -1,0 +1,47 @@
+;; This buffer is for notes you don't want to save, and for Lisp evaluation.
+;; If you want to create a file, visit that file with C-x C-f,
+;; then enter the text in that file's own buffer.
+
+・bool pcl::visualization::PCLVisualizer::getCameraParameters 	( 	int  	argc,
+		char **  	argv 
+	) 		
+
+Search for camera parameters at the command line and set them internally.
+
+Parameters
+[in]	argc	
+[in]	argv
+
+・void pcl::visualization::PCLVisualizer::getCameras 	( 	std::vector< Camera > &  	cameras)
+
+Get the current camera parameters.
+
+
+
+・void pcl::visualization::PCLVisualizer::setCameraPosition 	( 	double  	pos_x,
+		double  	pos_y,
+		double  	pos_z,
+		double  	view_x,
+		double  	view_y,
+		double  	view_z,
+		double  	up_x,
+		double  	up_y,
+		double  	up_z,
+		int  	viewport = 0 
+	) 		
+
+Set the camera pose given by position, viewpoint and up vector.
+
+Parameters
+    [in]	pos_x	the x coordinate of the camera location
+    [in]	pos_y	the y coordinate of the camera location
+    [in]	pos_z	the z coordinate of the camera location
+    [in]	view_x	the x component of the view point of the camera
+    [in]	view_y	the y component of the view point of the camera
+    [in]	view_z	the z component of the view point of the camera
+    [in]	up_x	the x component of the view up direction of the camera
+    [in]	up_y	the y component of the view up direction of the camera
+    [in]	up_z	the y component of the view up direction of the camera
+    [in]	viewport	the viewport to modify camera of (0 modifies all cameras)
+
+
